@@ -2,6 +2,8 @@
 
 This is a simple dotfiles and scripts to setup _Windows Subsystem for Linux (WSL)_ with _Debian and Ubuntu based Linux distributions_.
 
+I amended the fork with a jump into Neovims + the CLI tools rabbit hole 
+
 ## Features
 
 _Check linked files to more details._
@@ -11,6 +13,7 @@ _Check linked files to more details._
 - [apps.sh](scripts/apps.sh) - installs applications.
 - [dotfiles.sh](scripts/dotfiles.sh) - installs _Oh My Zsh_, _.zshrc_ and _Git_ configs.
 - [npm.sh](scripts/npm.sh) - _Node.js_ and _npm_ settings.
+- [fonts.sh](scripts/fonts.sh) - installs NerdFonts we need for symbols used in neovim and such forth.
 - [setup.sh](setup.sh) - main installer.
 - [ssh.sh](scripts/ssh.sh) - generate _SSH_.
 - [user.sh](scripts/user.sh) - user data to configuration of _Git_ and _SSH_.
