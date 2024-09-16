@@ -10,6 +10,8 @@ fi
 
 declare -a fonts=(
 	FiraCode
+	RobotMono
+	Hack
 	JetBrainsMono
 )
 
