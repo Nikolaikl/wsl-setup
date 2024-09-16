@@ -65,7 +65,3 @@ alias nvimconfig="nvim ~/.config/nvim"
 alias gg="lazygit"
 alias repos="cd ~/repos"
 alias develop="cd ~/develop"
-
-# Sourcing P10K
-source ~/powerlevel10k/powerlevel10k.zsh-theme
-
