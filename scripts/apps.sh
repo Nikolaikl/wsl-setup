@@ -15,7 +15,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install -y ubuntu-wsl
 
 # Essential package
-sudo apt install -y build-essential gcc
+sudo apt install -y build-essential gcc zip
 
 # Common packages
 sudo apt install -y apt-transport-https ca-certificates curl gawk ssh-askpass tree unzip wget zsh
