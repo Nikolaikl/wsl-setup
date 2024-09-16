@@ -22,6 +22,9 @@ git clone https://github.com/z-shell/F-Sy-H.git ~/.oh-my-zsh/custom/plugins/F-Sy
 # Install asdf
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf
 
+# Install p10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
+
 # Move permanent files to Home directory
 replace "./scripts/.zshrc" ".zshrc"
 

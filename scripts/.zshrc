@@ -3,7 +3,7 @@
 
 # --------------------------- Theme ------------------------------------
 # ZSH theme
-ZSH_THEME="robbyrussell"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # --------------------------- Paths ------------------------------------
 # oh-my-zsh path
@@ -37,13 +37,13 @@ source $ZSH/oh-my-zsh.sh
 alias copyssh="cat < ~/.ssh/id_ed25519.pub | clip.exe | echo '=> Public SSH key copied.'"
 
 # Open developer directory
-alias dev="${HOME}/Developer"
+alias dev="${HOME}/develop"
 
 # Open Explorer in current folder
 alias explorer="explorer.exe ."
 
 # Open .gitconfig in VSCode
-alias gitcfg="code ~/.gitconfig"
+alias gitcfg="vi ~/.gitconfig"
 
 # List outdated npm packages installed globally
 alias npmcheck="npm outdated -g --depth=0"
@@ -57,5 +57,15 @@ alias npmupdate="npm update -g"
 # Open Windows user directory
 alias winhome="/mnt/c/Users/$(echo $USER)"
 
-# Open .zshrc in VSCode
-alias zshcfg="code ~/.zshrc"
+# aliases 
+alias zshcfg="vi ~/.zshrc"
+alias reload="source ~/.zshrc"
+alias v="nvim"
+alias nvimconfig="nvim ~/.config/nvim"
+alias gg="lazygit"
+alias repos="cd ~/repos"
+alias develop="cd ~/develop"
+
+# Sourcing P10K
+source ~/powerlevel10k/powerlevel10k.zsh-theme
+

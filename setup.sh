@@ -26,14 +26,13 @@ if [[ $SSH_EMAIL ]]; then
 fi
 
 # Create a directory for projects and development
-echo_info "Creating Developer directory in Home directory..."
-mkdir ${HOME}/Developer ${HOME}/Developer
+echo_info "Creating developer directories in Home directory..."
+mkdir ${HOME}/develop ${HOME}/develop
+mkdir ${HOME}/repos ${HOME}/repos
 
 # Cleanup cached downloads and remove the installation zip and folder
 echo_info "Removing unnecessary files..."
 sudo apt -y autoremove
-rm -rf ../scripts.zip
-rm -rf ${DOTFILES_DIRECTORY}
 
 # Finish
 echo_success "Reboot and enjoy!"
