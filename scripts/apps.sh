@@ -107,6 +107,12 @@ cargo install tree-sitter-cli
 # viu cli tool
 cargo install viu
 
+# bottom
+curl -LO https://github.com/ClementTsang/bottom/releases/download/0.10.2/bottom_0.10.2-1_amd64.deb
+sudo dpkg -i bottom_0.10.2-1_amd64.deb
+
+rm bottom_0.10.2-1_amd64.deb
+
 # neovim
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 chmod u+x nvim.appimage
