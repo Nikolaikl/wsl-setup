@@ -33,6 +33,8 @@ mkdir ${HOME}/repos ${HOME}/repos
 # Cleanup cached downloads and remove the installation zip and folder
 echo_info "Removing unnecessary files..."
 sudo apt -y autoremove
+rm -rf ../scripts.zip
+rm -rf ${DOTFILES_DIRECTORY}
 
 # Finish
 echo_success "Reboot and enjoy!"
